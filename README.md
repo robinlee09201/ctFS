@@ -16,7 +16,7 @@ You are also free to change and reuse the code as you wish.
 * CPU: Intel(R) Xeon(R) Silver 4215 CPU @ 2.50GHz
 * DRAM: 6 x 16GB DDR4 RDIMM
 * PMEM: 2 x 128GB Intel Optane DCPMM
-* Kernel: 5.11.0-46-generic
+* Kernel: 5.7.0-rc7+
 * Distribution: Ubuntu Server 20.04 LTS
 ## How to use: 
 ### Kernel part source code
