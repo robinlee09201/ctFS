@@ -21,7 +21,7 @@ You are also free to change and reuse the code as you wish.
 ## How to use: 
 ### Kernel part source code
 1. Clone the Linux kernel and checkout 5.11.0-46-generic
-2. Copy the files in **/script/*** to the kernel repo **kernel/drivers/dax/**
+2. Copy the files in **/kernel/*** to the kernel repo **kernel/drivers/dax/**
 ### Compile 
 1. Compile and install the kernel
 2. Compile ctFS user part (ctU):
