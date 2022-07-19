@@ -22,6 +22,20 @@ You are also free to change and reuse the code as you wish.
 ### Kernel part source code
 1. Clone the Linux kernel and checkout v5.7-rc7
 2. Copy the files in **/kernel/*** to the kernel repo **kernel/drivers/dax/**
+3. Add the following code in mm/memory.c:
+    ```c
+    EXPORT_SYMBOL_GPL(__pte_alloc);
+    EXPORT_SYMBOL_GPL(__pmd_alloc);
+    EXPORT_SYMBOL_GPL(__pud_alloc);
+    EXPORT_SYMBOL_GPL(__p4d_alloc);
+    ```
+    After the end of these functions:
+    ```c
+    __pte_alloc
+    __pmd_alloc
+    __pud_alloc
+    __p4d_alloc
+    ```
 ### Compile 
 1. Compile and install the kernel
 2. Compile ctFS user part (ctU):
