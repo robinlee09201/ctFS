@@ -20,7 +20,7 @@ You are also free to change and reuse the code as you wish.
 * Distribution: Ubuntu Server 20.04 LTS
 ## How to use: 
 ### Kernel part source code
-1. Clone the Linux kernel and checkout 5.11.0-46-generic
+1. Clone the Linux kernel and checkout v5.7-rc7
 2. Copy the files in **/kernel/*** to the kernel repo **kernel/drivers/dax/**
 ### Compile 
 1. Compile and install the kernel
