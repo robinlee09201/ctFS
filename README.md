@@ -40,6 +40,7 @@ You are also free to change and reuse the code as you wish.
 1. Compile and install the kernel
 2. Compile ctFS user part (ctU):
     ```sh
+    mkdir bld
     make
     ```
 3. Compile mkfs
@@ -59,8 +60,9 @@ You are also free to change and reuse the code as you wish.
     ```
 2. Format
     ```sh
-    test/mkfs
+    test/mkfs 1
     ```
+    Note that if you only need to clear the persistent page table, run mkfs without any arguments.
 ### Run
 1. Run with TEST_PROGRAM: 
     ```sh
